@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4319018150CB4B20048BCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4319017150CB4B20048BCC6 /* UIKit.framework */; };
+		F431901A150CB4B20048BCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4319019150CB4B20048BCC6 /* Foundation.framework */; };
+		F431901C150CB4B20048BCC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F431901B150CB4B20048BCC6 /* CoreGraphics.framework */; };
+		F4319022150CB4B20048BCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4319020150CB4B20048BCC6 /* InfoPlist.strings */; };
+		F4319024150CB4B20048BCC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4319023150CB4B20048BCC6 /* main.m */; };
+		F4319028150CB4B20048BCC6 /* TrackingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4319027150CB4B20048BCC6 /* TrackingAppDelegate.m */; };
+		F431902B150CB4B30048BCC6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */; };
+		F431902E150CB4B30048BCC6 /* TrackingFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F431902D150CB4B30048BCC6 /* TrackingFirstViewController.m */; };
+		F4319030150CB4B30048BCC6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F431902F150CB4B30048BCC6 /* first.png */; };
+		F4319032150CB4B30048BCC6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319031150CB4B30048BCC6 /* first@2x.png */; };
+		F4319035150CB4B30048BCC6 /* TrackingSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */; };
+		F4319037150CB4B30048BCC6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319036150CB4B30048BCC6 /* second.png */; };
+		F4319039150CB4B30048BCC6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319038150CB4B30048BCC6 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4319013150CB4B20048BCC6 /* Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4319017150CB4B20048BCC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4319019150CB4B20048BCC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F431901B150CB4B20048BCC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F431901F150CB4B20048BCC6 /* Tracking-Info.plist */ = {isa = PBXFileReference; path = "Tracking-Info.plist"; sourceTree = "<group>"; };
+		F4319021150CB4B20048BCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4319023150CB4B20048BCC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4319025150CB4B20048BCC6 /* Tracking-Prefix.pch */ = {isa = PBXFileReference; path = "Tracking-Prefix.pch"; sourceTree = "<group>"; };
+		F4319026150CB4B20048BCC6 /* TrackingAppDelegate.h */ = {isa = PBXFileReference; path = TrackingAppDelegate.h; sourceTree = "<group>"; };
+		F4319027150CB4B20048BCC6 /* TrackingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingAppDelegate.m; sourceTree = "<group>"; };
+		F431902A150CB4B30048BCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F431902C150CB4B30048BCC6 /* TrackingFirstViewController.h */ = {isa = PBXFileReference; path = TrackingFirstViewController.h; sourceTree = "<group>"; };
+		F431902D150CB4B30048BCC6 /* TrackingFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingFirstViewController.m; sourceTree = "<group>"; };
+		F431902F150CB4B30048BCC6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F4319031150CB4B30048BCC6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F4319033150CB4B30048BCC6 /* TrackingSecondViewController.h */ = {isa = PBXFileReference; path = TrackingSecondViewController.h; sourceTree = "<group>"; };
+		F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingSecondViewController.m; sourceTree = "<group>"; };
+		F4319036150CB4B30048BCC6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F4319038150CB4B30048BCC6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4319010150CB4B20048BCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4319018150CB4B20048BCC6 /* UIKit.framework in Frameworks */,
+				F431901A150CB4B20048BCC6 /* Foundation.framework in Frameworks */,
+				F431901C150CB4B20048BCC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4319008150CB4B20048BCC6 = {
+			isa = PBXGroup;
+			children = (
+				F431901D150CB4B20048BCC6 /* Tracking */,
+				F4319016150CB4B20048BCC6 /* Frameworks */,
+				F4319014150CB4B20048BCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4319014150CB4B20048BCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4319013150CB4B20048BCC6 /* Tracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4319016150CB4B20048BCC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4319017150CB4B20048BCC6 /* UIKit.framework */,
+				F4319019150CB4B20048BCC6 /* Foundation.framework */,
+				F431901B150CB4B20048BCC6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F431901D150CB4B20048BCC6 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				F4319026150CB4B20048BCC6 /* TrackingAppDelegate.h */,
+				F4319027150CB4B20048BCC6 /* TrackingAppDelegate.m */,
+				F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */,
+				F431902C150CB4B30048BCC6 /* TrackingFirstViewController.h */,
+				F431902D150CB4B30048BCC6 /* TrackingFirstViewController.m */,
+				F431902F150CB4B30048BCC6 /* first.png */,
+				F4319031150CB4B30048BCC6 /* first@2x.png */,
+				F4319033150CB4B30048BCC6 /* TrackingSecondViewController.h */,
+				F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */,
+				F4319036150CB4B30048BCC6 /* second.png */,
+				F4319038150CB4B30048BCC6 /* second@2x.png */,
+				F431901E150CB4B20048BCC6 /* Supporting Files */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		F431901E150CB4B20048BCC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F431901F150CB4B20048BCC6 /* Tracking-Info.plist */,
+				F4319020150CB4B20048BCC6 /* InfoPlist.strings */,
+				F4319023150CB4B20048BCC6 /* main.m */,
+				F4319025150CB4B20048BCC6 /* Tracking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4319012150CB4B20048BCC6 /* Tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F431903C150CB4B30048BCC6 /* Build configuration list for PBXNativeTarget "Tracking" */;
+			buildPhases = (
+				F431900F150CB4B20048BCC6 /* Sources */,
+				F4319010150CB4B20048BCC6 /* Frameworks */,
+				F4319011150CB4B20048BCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tracking;
+			productName = Tracking;
+			productReference = F4319013150CB4B20048BCC6 /* Tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F431900A150CB4B20048BCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tracking;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F431900D150CB4B20048BCC6 /* Build configuration list for PBXProject "Tracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4319008150CB4B20048BCC6;
+			productRefGroup = F4319014150CB4B20048BCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4319012150CB4B20048BCC6 /* Tracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4319011150CB4B20048BCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4319022150CB4B20048BCC6 /* InfoPlist.strings in Resources */,
+				F431902B150CB4B30048BCC6 /* MainStoryboard.storyboard in Resources */,
+				F4319030150CB4B30048BCC6 /* first.png in Resources */,
+				F4319032150CB4B30048BCC6 /* first@2x.png in Resources */,
+				F4319037150CB4B30048BCC6 /* second.png in Resources */,
+				F4319039150CB4B30048BCC6 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F431900F150CB4B20048BCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4319024150CB4B20048BCC6 /* main.m in Sources */,
+				F4319028150CB4B20048BCC6 /* TrackingAppDelegate.m in Sources */,
+				F431902E150CB4B30048BCC6 /* TrackingFirstViewController.m in Sources */,
+				F4319035150CB4B30048BCC6 /* TrackingSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4319020150CB4B20048BCC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4319021150CB4B20048BCC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F431902A150CB4B30048BCC6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F431903A150CB4B30048BCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F431903B150CB4B30048BCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F431903D150CB4B30048BCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tracking/Tracking-Prefix.pch";
+				INFOPLIST_FILE = "Tracking/Tracking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F431903E150CB4B30048BCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tracking/Tracking-Prefix.pch";
+				INFOPLIST_FILE = "Tracking/Tracking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F431900D150CB4B20048BCC6 /* Build configuration list for PBXProject "Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F431903A150CB4B30048BCC6 /* Debug */,
+				F431903B150CB4B30048BCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F431903C150CB4B30048BCC6 /* Build configuration list for PBXNativeTarget "Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F431903D150CB4B30048BCC6 /* Debug */,
+				F431903E150CB4B30048BCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F431900A150CB4B20048BCC6 /* Project object */;
+}
