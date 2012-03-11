@@ -20,6 +20,8 @@
 		F4319035150CB4B30048BCC6 /* TrackingSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */; };
 		F4319037150CB4B30048BCC6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319036150CB4B30048BCC6 /* second.png */; };
 		F4319039150CB4B30048BCC6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319038150CB4B30048BCC6 /* second@2x.png */; };
+		F49EA7B1150CBB2B00EE2FF8 /* TrackingFood.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7B0150CBB2B00EE2FF8 /* TrackingFood.m */; };
+		F49EA7B4150CD44B00EE2FF8 /* TrackingFoodHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7B3150CD44B00EE2FF8 /* TrackingFoodHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +29,25 @@
 		F4319017150CB4B20048BCC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4319019150CB4B20048BCC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F431901B150CB4B20048BCC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F431901F150CB4B20048BCC6 /* Tracking-Info.plist */ = {isa = PBXFileReference; path = "Tracking-Info.plist"; sourceTree = "<group>"; };
+		F431901F150CB4B20048BCC6 /* Tracking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tracking-Info.plist"; sourceTree = "<group>"; };
 		F4319021150CB4B20048BCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4319023150CB4B20048BCC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4319025150CB4B20048BCC6 /* Tracking-Prefix.pch */ = {isa = PBXFileReference; path = "Tracking-Prefix.pch"; sourceTree = "<group>"; };
-		F4319026150CB4B20048BCC6 /* TrackingAppDelegate.h */ = {isa = PBXFileReference; path = TrackingAppDelegate.h; sourceTree = "<group>"; };
+		F4319025150CB4B20048BCC6 /* Tracking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tracking-Prefix.pch"; sourceTree = "<group>"; };
+		F4319026150CB4B20048BCC6 /* TrackingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingAppDelegate.h; sourceTree = "<group>"; };
 		F4319027150CB4B20048BCC6 /* TrackingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingAppDelegate.m; sourceTree = "<group>"; };
 		F431902A150CB4B30048BCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F431902C150CB4B30048BCC6 /* TrackingFirstViewController.h */ = {isa = PBXFileReference; path = TrackingFirstViewController.h; sourceTree = "<group>"; };
+		F431902C150CB4B30048BCC6 /* TrackingFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingFirstViewController.h; sourceTree = "<group>"; };
 		F431902D150CB4B30048BCC6 /* TrackingFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingFirstViewController.m; sourceTree = "<group>"; };
 		F431902F150CB4B30048BCC6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		F4319031150CB4B30048BCC6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		F4319033150CB4B30048BCC6 /* TrackingSecondViewController.h */ = {isa = PBXFileReference; path = TrackingSecondViewController.h; sourceTree = "<group>"; };
+		F4319033150CB4B30048BCC6 /* TrackingSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingSecondViewController.h; sourceTree = "<group>"; };
 		F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingSecondViewController.m; sourceTree = "<group>"; };
 		F4319036150CB4B30048BCC6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		F4319038150CB4B30048BCC6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F49EA7AF150CBB2B00EE2FF8 /* TrackingFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingFood.h; sourceTree = "<group>"; };
+		F49EA7B0150CBB2B00EE2FF8 /* TrackingFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingFood.m; sourceTree = "<group>"; };
+		F49EA7B2150CD44A00EE2FF8 /* TrackingFoodHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingFoodHandler.h; sourceTree = "<group>"; };
+		F49EA7B3150CD44B00EE2FF8 /* TrackingFoodHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingFoodHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +96,16 @@
 			children = (
 				F4319026150CB4B20048BCC6 /* TrackingAppDelegate.h */,
 				F4319027150CB4B20048BCC6 /* TrackingAppDelegate.m */,
-				F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */,
+				F49EA7B2150CD44A00EE2FF8 /* TrackingFoodHandler.h */,
+				F49EA7B3150CD44B00EE2FF8 /* TrackingFoodHandler.m */,
+				F49EA7AF150CBB2B00EE2FF8 /* TrackingFood.h */,
+				F49EA7B0150CBB2B00EE2FF8 /* TrackingFood.m */,
 				F431902C150CB4B30048BCC6 /* TrackingFirstViewController.h */,
 				F431902D150CB4B30048BCC6 /* TrackingFirstViewController.m */,
-				F431902F150CB4B30048BCC6 /* first.png */,
-				F4319031150CB4B30048BCC6 /* first@2x.png */,
 				F4319033150CB4B30048BCC6 /* TrackingSecondViewController.h */,
 				F4319034150CB4B30048BCC6 /* TrackingSecondViewController.m */,
-				F4319036150CB4B30048BCC6 /* second.png */,
-				F4319038150CB4B30048BCC6 /* second@2x.png */,
+				F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */,
+				F431903F150CB4D00048BCC6 /* Resources */,
 				F431901E150CB4B20048BCC6 /* Supporting Files */,
 			);
 			path = Tracking;
@@ -113,6 +120,17 @@
 				F4319025150CB4B20048BCC6 /* Tracking-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F431903F150CB4D00048BCC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4319036150CB4B30048BCC6 /* second.png */,
+				F4319038150CB4B30048BCC6 /* second@2x.png */,
+				F431902F150CB4B30048BCC6 /* first.png */,
+				F4319031150CB4B30048BCC6 /* first@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +204,8 @@
 				F4319028150CB4B20048BCC6 /* TrackingAppDelegate.m in Sources */,
 				F431902E150CB4B30048BCC6 /* TrackingFirstViewController.m in Sources */,
 				F4319035150CB4B30048BCC6 /* TrackingSecondViewController.m in Sources */,
+				F49EA7B1150CBB2B00EE2FF8 /* TrackingFood.m in Sources */,
+				F49EA7B4150CD44B00EE2FF8 /* TrackingFoodHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				F431903E150CB4B30048BCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

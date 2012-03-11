@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrackingFoodHandler.h"
+#import "TrackingFood.h"
 
 @interface TrackingAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) TrackingFoodHandler *foodHandler;
+
+- (void) addFoodToList:(TrackingFood *)foodToAdd;
+- (void) printFoodList;
 
 @end

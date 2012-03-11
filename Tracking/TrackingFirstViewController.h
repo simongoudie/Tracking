@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrackingFood.h"
+#import "TrackingFoodHandler.h"
+#import "TrackingAppDelegate.h"
+#import "TrackingFoodHandler.h"
 
 @interface TrackingFirstViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *foodNameInput;
+@property (weak, nonatomic) IBOutlet UITextField *foodReminderInput;
+
+- (IBAction)PushButton:(id)sender;
 
 @end
