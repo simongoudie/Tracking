@@ -24,7 +24,7 @@
 {
     NSUInteger i;
     for (i = 0; i < [foodList count]; i++){
-        NSLog(@"Food %d is %@ and rem is %@",i,[[foodList objectAtIndex:i] food], [[foodList objectAtIndex:i] reminder]);
+//        NSLog(@"Food %d is %@ and rem is %@",i,[[foodList objectAtIndex:i] food], [[foodList objectAtIndex:i] reminder]);
     }
 }
 

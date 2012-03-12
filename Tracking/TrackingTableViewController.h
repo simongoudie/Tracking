@@ -9,14 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "TrackingAppDelegate.h"
 #import "TrackingFood.h"
-
+#import "TrackingItemViewController.h"
 
 @interface TrackingTableViewController : UITableViewController
 {
     NSMutableArray* tableViewArray;
+    IBOutlet UITableView  *MyTableView;
 }
 
 @property NSMutableArray *tableViewArray;
+@property IBOutlet UITableView  *MyTableView;
 
 - (void) loadArray;
 

@@ -49,7 +49,7 @@
 
 - (void)addFoodToList:(TrackingFood *)foodToAdd
 {
-    NSLog(@"The food AppDel is adding is %@",[foodToAdd food]);
+//    NSLog(@"The food AppDel is adding is %@",[foodToAdd food]);
     [foodHandler addFoodToList:foodToAdd];
 }
 

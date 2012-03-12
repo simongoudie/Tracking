@@ -14,11 +14,10 @@
 
 @implementation TrackingTableViewController
 
-@synthesize tableViewArray;
+@synthesize tableViewArray,MyTableView;
 
 - (void)loadArray
 {
-    NSLog(@"Loading array");
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSMutableArray *array = [[NSMutableArray alloc] initWithArray: [[appDelegate foodHandler] foodList]];
     self.tableViewArray = array;
@@ -26,7 +25,6 @@
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
-    NSLog(@"Initwithstyle");
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
@@ -36,7 +34,6 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"3viewdidload");
     [self loadArray];
     [super viewDidLoad];
 
@@ -64,26 +61,22 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    NSLog(@"Sections ready!");
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    NSLog(@"rows ready!");
     return [self.tableViewArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	NSLog(@"New cell?");
     UITableViewCell *cell = [tableView 
                              dequeueReusableCellWithIdentifier:@"ReuseCell"];
 	TrackingFood *food = [self.tableViewArray objectAtIndex:indexPath.row];
 	cell.textLabel.text = food.food;
 	cell.detailTextLabel.text = food.reminder;
-    NSLog(@"New cell!");
     return cell;
 }
 
@@ -127,21 +120,35 @@
 */
 
 #pragma mark - Table view delegate
-
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    TrackingFood *theBall = [self.tableViewArray objectAtIndex:indexPath.row];
     // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
+    TrackingItemViewController *itemViewController = [[TrackingItemViewController alloc] initWithNibName:@"ItemView" bundle:nil];
      // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    itemViewController.passedFood = theBall;
+    NSLog(@"Item passed is called: %@",itemViewController.passedFood.food);
+    [self.navigationController pushViewController:itemViewController animated:YES];
+}
+*/
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender
+{
+    if ([[segue identifier] isEqualToString:@"passedFood"]) {
+        
+        TrackingItemViewController *itemViewController = (TrackingItemViewController *)[segue destinationViewController];
+        
+        NSIndexPath *selectedIndexPath = [self.MyTableView indexPathForSelectedRow];
+        TrackingFood *theBall = [tableViewArray objectAtIndex:selectedIndexPath.row];
+        NSLog(@"theBall = %@", theBall.food);
+        itemViewController.passedFood = theBall;
+        NSLog(@"Pass complete");
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    NSLog(@"3View Appeared");
     //    [tableView reloadData];
     [self loadArray];
     [self.tableView reloadData];
