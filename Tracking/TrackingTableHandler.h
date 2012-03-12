@@ -1,25 +1,27 @@
 //
-//  TrackingSecondViewController.h
+//  TrackingTableHandler.h
 //  Tracking
 //
-//  Created by Simon Goudie on 11/03/12.
+//  Created by Simon Goudie on 12/03/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "TrackingFoodHandler.h"
 #import "TrackingTableHandler.h"
 #import "TrackingFoodHandler.h"
 #import "TrackingAppDelegate.h"
-#import "TrackingTableHandler.h"
 
-@interface TrackingSecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface TrackingTableHandler : UITableViewController <UITableViewDelegate,UITableViewDataSource> {
     
     NSArray* tableViewArray;
+    UITableView* myTableView;
     
 }
 
 @property NSArray* tableViewArray;
+@property (nonatomic) UITableView* myTableView;
 
 - (void) loadArray;
 

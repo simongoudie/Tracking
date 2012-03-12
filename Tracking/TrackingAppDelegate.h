@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "TrackingFoodHandler.h"
 #import "TrackingFood.h"
+#import "TrackingTableHandler.h"
+#import "TrackingTableViewController.h"
 
 @interface TrackingAppDelegate : UIResponder <UIApplicationDelegate>
 

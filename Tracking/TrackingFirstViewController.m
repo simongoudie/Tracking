@@ -44,6 +44,8 @@
     [food1 setReminded:NO]; //set food1's reminded field
     [appDelegate addFoodToList:food1]; //add food1 to foodList array
     [appDelegate printFoodList]; //print out array
+    [foodNameInput resignFirstResponder];
+    [foodReminderInput resignFirstResponder];
 }
 
 @end

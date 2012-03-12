@@ -1,19 +1,16 @@
 //
-//  TrackingSecondViewController.m
+//  TrackingTableHandler.m
 //  Tracking
 //
-//  Created by Simon Goudie on 11/03/12.
+//  Created by Simon Goudie on 12/03/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TrackingSecondViewController.h"
+#import "TrackingTableHandler.h"
 
-@interface TrackingSecondViewController ()
+@implementation TrackingTableHandler
 
-@end
-
-@implementation TrackingSecondViewController
-@synthesize tableViewArray;
+@synthesize tableViewArray,myTableView;
 
 - (void)viewDidLoad
 {
@@ -29,7 +26,7 @@
     NSArray *array = [[NSArray alloc] initWithArray: [[appDelegate foodHandler] foodList]];
     self.tableViewArray = array;
 }
-   
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -49,9 +46,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SimpleTableIdentifier"];
-//    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"SimpleTableIdentifier"];
-//    }
+    //    if (cell == nil) {
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"SimpleTableIdentifier"];
+    //    }
     cell.textLabel.text = [[tableViewArray objectAtIndex:indexPath.row] food];
     return cell;
 }
@@ -64,8 +61,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     NSLog(@"View Appeared");
-//    [self. reloadData];
-    
+    //    [tableView reloadData];
+    [self reloadInputViews];
 }
-    
+
 @end
