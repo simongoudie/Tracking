@@ -11,12 +11,14 @@
 @implementation TrackingAppDelegate
 
 @synthesize window = _window;
-@synthesize foodHandler;
+@synthesize foodHandler = _foodHandler;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    foodHandler = [[TrackingFoodHandler alloc]init];
+    _foodHandler = [[TrackingFoodHandler alloc]init];
+    [_foodHandler setupList];
+    NSLog(@"DFL done");
     return YES;
 }
 							
@@ -45,17 +47,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (void)addFoodToList:(TrackingFood *)foodToAdd
-{
-//    NSLog(@"The food AppDel is adding is %@",[foodToAdd food]);
-    [foodHandler addFoodToList:foodToAdd];
-}
-
-- (void)printFoodList
-{
-    [foodHandler printFoodList];
 }
 
 @end

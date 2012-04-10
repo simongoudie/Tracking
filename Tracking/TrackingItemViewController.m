@@ -13,10 +13,9 @@
 @end
 
 @implementation TrackingItemViewController
-@synthesize foodNameLabel;
-@synthesize foodReminderLabel;
-@synthesize foodRatingLabel;
-@synthesize passedFood;
+@synthesize foodNameLabel = _foodNameLabel;
+@synthesize foodRatingLabel = _foodRatingLabel;
+@synthesize passedFood = _passedFood;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,17 +30,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    TrackingFood *food = passedFood;
-    foodNameLabel.text = [NSString stringWithFormat:@"%@",food.food];
-    foodReminderLabel.text = [NSString stringWithFormat:@"%@",food.reminder];
-    foodRatingLabel.text = [NSString stringWithFormat:@"%d",food.rating];
-    NSLog(@"Item received is called: %@",passedFood.food);
+    TrackingFood *food = [self passedFood];
+    [self foodNameLabel].text = [NSString stringWithFormat:@"%@",food.food];
+    [self foodRatingLabel].text = [NSString stringWithFormat:@"%d",food.rating];
+    NSLog(@"Item received is called: %@",[self passedFood].food);
 }
 
 - (void)viewDidUnload
 {
     [self setFoodNameLabel:nil];
-    [self setFoodReminderLabel:nil];
     [self setFoodRatingLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.

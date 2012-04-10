@@ -8,12 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "TrackingFood.h"
+#import "TrackingFoodList.h"
 
-@interface TrackingFoodHandler : NSObject
+@interface TrackingFoodHandler : NSObject <NSCoding>
 
 @property NSMutableArray *foodList;
 
--(void) addFoodToList:(TrackingFood*)newFood;
--(void) printFoodList;
+-(NSString *) getPath;
+-(void) saveFoodList;
+-(void) loadFoodList;
+-(void) setupList;
+-(void) addFoodToList:(TrackingFood *)newFood;
 
 @end

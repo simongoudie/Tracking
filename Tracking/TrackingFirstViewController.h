@@ -11,11 +11,11 @@
 #import "TrackingFoodHandler.h"
 #import "TrackingAppDelegate.h"
 #import "TrackingFoodHandler.h"
+#import "TrackingFoodList.h"
 
 @interface TrackingFirstViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *foodNameInput;
-@property (weak, nonatomic) IBOutlet UITextField *foodReminderInput;
 
 - (IBAction)PushButton:(id)sender;
 

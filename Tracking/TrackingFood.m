@@ -10,6 +10,26 @@
 
 @implementation TrackingFood
 
-@synthesize food,reminder,rating,reminded;
+@synthesize food = _food;
+@synthesize rating = _rating;
+@synthesize reminded = _reminded;
+
+-(void) encodeWithCoder: (NSCoder *)coder
+{
+    [coder encodeObject: [self food] forKey:@"food"];
+//    [coder encodeBool: *(reminded) forKey:@"reminded"];
+//    [coder encodeInt: *(rating) forKey:@"rating"];
+}
+
+-(id) initWithCoder: (NSCoder *)coder
+{
+    if(self = [super init])
+    {
+        [self setFood: [coder decodeObjectForKey:@"food"]];
+//        [self setReminded: (signed char *)[coder decodeBoolForKey:@"reminded"]];
+//        [self setRating: (NSInteger *)[coder decodeIntForKey:@"rating"]];
+    }
+    return self;
+}
 
 @end

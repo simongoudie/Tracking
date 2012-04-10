@@ -11,7 +11,6 @@
 
 @interface TrackingItemViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *foodNameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *foodReminderLabel;
 @property (weak, nonatomic) IBOutlet UILabel *foodRatingLabel;
 @property TrackingFood *passedFood;
 

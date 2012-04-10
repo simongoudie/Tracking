@@ -10,6 +10,7 @@
 #import "TrackingAppDelegate.h"
 #import "TrackingFood.h"
 #import "TrackingItemViewController.h"
+#import "TrackingFoodHandler.h"
 
 @interface TrackingTableViewController : UITableViewController
 {
@@ -19,6 +20,7 @@
 
 @property NSMutableArray *tableViewArray;
 @property IBOutlet UITableView  *MyTableView;
+@property NSInteger numberOfRows;
 
 - (void) loadArray;
 

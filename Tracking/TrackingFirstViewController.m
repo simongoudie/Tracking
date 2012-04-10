@@ -14,7 +14,7 @@
 
 @implementation TrackingFirstViewController
 
-@synthesize foodNameInput,foodReminderInput;
+@synthesize foodNameInput = _foodNameInput;
 
 - (void)viewDidLoad
 {
@@ -25,7 +25,6 @@
 - (void)viewDidUnload
 {
     [self setFoodNameInput:nil];
-    [self setFoodReminderInput:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -39,13 +38,13 @@
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate]; //link appdel
     TrackingFood *food1 = [[TrackingFood alloc]init]; //create new TrackingFood "food1"
-    [food1 setFood:foodNameInput.text]; //set food1's name property
-    [food1 setReminder:foodReminderInput.text]; //set food1's reminder time
+    [food1 setFood:[self foodNameInput].text]; //set food1's name property
     [food1 setReminded:NO]; //set food1's reminded field
-    [appDelegate addFoodToList:food1]; //add food1 to foodList array
-    [appDelegate printFoodList]; //print out array
-    [foodNameInput resignFirstResponder];
-    [foodReminderInput resignFirstResponder];
+    [food1 setRating:0]; //set default food1's rating to 0
+    [[appDelegate foodHandler] addFoodToList:food1];
+    //[appDelegate addFoodToList:food1]; //add food1 to foodList array
+    [self foodNameInput].text = nil; //reset input text box
+    [[self foodNameInput] resignFirstResponder];
 }
 
 @end

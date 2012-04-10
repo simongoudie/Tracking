@@ -21,12 +21,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Check back in?" borderStyle="roundedRect" placeholder="Check back in?" clearsOnBeginEditing="YES" minimumFontSize="17" id="dON-Tc-5tj">
-                                <rect key="frame" x="87" y="102" width="144" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zBE-Je-dLq">
                                 <rect key="frame" x="87" y="141" width="144" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,7 +43,6 @@
                     <navigationItem key="navigationItem" title="New Food" id="Om3-4K-59Z"/>
                     <connections>
                         <outlet property="foodNameInput" destination="zsj-lr-pNz" id="O5J-MD-5Tm"/>
-                        <outlet property="foodReminderInput" destination="dON-Tc-5tj" id="jFc-Rz-Mv8"/>
                     </connections>
                 </viewController>
             </objects>
@@ -156,13 +149,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Food Reminder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="6t4-Oh-NZp">
-                                <rect key="frame" x="182" y="86" width="118" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Food Rating" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ncj-Qo-Slz">
                                 <rect key="frame" x="182" y="129" width="118" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -172,13 +158,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Food name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fJP-gX-WES">
                                 <rect key="frame" x="20" y="44" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Reminder set:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="3cq-Uc-188">
-                                <rect key="frame" x="20" y="86" width="106" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -198,7 +177,6 @@
                     <connections>
                         <outlet property="foodNameLabel" destination="zZM-AI-P5U" id="yP4-XP-PA7"/>
                         <outlet property="foodRatingLabel" destination="Ncj-Qo-Slz" id="ik6-qf-uYV"/>
-                        <outlet property="foodReminderLabel" destination="6t4-Oh-NZp" id="Xaf-dh-Rjq"/>
                     </connections>
                 </viewController>
             </objects>
@@ -227,6 +205,28 @@
     <resources>
         <image name="first" width="16" height="16"/>
     </resources>
+    <classes>
+        <class className="TrackingFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingFirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="PushButton:"/>
+                <relationship kind="outlet" name="foodNameInput" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="TrackingItemViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingItemViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="foodNameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="foodRatingLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TrackingTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="MyTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

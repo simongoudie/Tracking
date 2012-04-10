@@ -8,10 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TrackingFood : NSObject
+@interface TrackingFood : NSObject <NSCoding>
 
 @property (strong) NSString *food;
-@property (strong) NSString *reminder;
 @property NSInteger *rating;
 @property BOOL *reminded;
 
