@@ -14,6 +14,7 @@
 @synthesize rating = _rating;
 @synthesize reminded = _reminded;
 
+//foods include encoding methods so they can be archived to disc in the list
 -(void) encodeWithCoder: (NSCoder *)coder
 {
     [coder encodeObject: [self food] forKey:@"food"];

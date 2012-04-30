@@ -29,11 +29,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     TrackingFood *food = [self passedFood];
     [self foodNameLabel].text = [NSString stringWithFormat:@"%@",food.food];
     [self foodRatingLabel].text = [NSString stringWithFormat:@"%d",food.rating];
-    NSLog(@"Item received is called: %@",[self passedFood].food);
 }
 
 - (void)viewDidUnload

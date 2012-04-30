@@ -18,6 +18,7 @@
 @synthesize MyTableView = _MyTableView;
 @synthesize numberOfRows;
 
+//Pulls in the array from food handler and stores it in tableViewArray
 - (void)loadArray
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
@@ -34,6 +35,7 @@
     return self;
 }
 
+//Sets up the array, numberOfRows and initial table view
 - (void)viewDidLoad
 {
     [self loadArray];
@@ -61,12 +63,14 @@
 
 #pragma mark - Table view data source
 
+//Only one section in my table
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
     return 1;
 }
 
+//Returns number of rows - probably don't really need numberOfRows...
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
@@ -74,6 +78,7 @@
     return numberOfRows;
 }
 
+//Fills in table cells by pulling food from tableViewArray, then setting text to food name
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView 
@@ -83,31 +88,36 @@
     return cell;
 }
 
-// Override to support conditional editing of the table view.
+// This is to allow editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
 
-// Override to support editing the table view.
+// Method for what happens when editing table.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
         numberOfRows--;
+        TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+        [[appDelegate foodHandler] removeFoodFromList:[indexPath indexAtPosition:1]];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
 
-// Override to support rearranging the table view.
+// Supports food list reordering by removing then readding moved food
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
-    //method
+    TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    TrackingFood *tempFood = [[[appDelegate foodHandler] foodList] objectAtIndex: [fromIndexPath indexAtPosition:1]];
+    [[appDelegate foodHandler] removeFoodFromList:[fromIndexPath indexAtPosition:1]];
+    [[appDelegate foodHandler] addFoodToList:tempFood atPosition:[toIndexPath indexAtPosition:1]];
+    [[appDelegate foodHandler] saveFoodList];
 }
 
 // Override to support conditional rearranging of the table view.
@@ -131,20 +141,18 @@
 }
 */
 
+//Some fancy thing I had to do to pass the selected food to the single food view
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender
 {
     if ([[segue identifier] isEqualToString:@"passedFood"]) {
-        
         TrackingItemViewController *itemViewController = (TrackingItemViewController *)[segue destinationViewController];
-        
         NSIndexPath *selectedIndexPath = [_MyTableView indexPathForSelectedRow];
         TrackingFood *theBall = [_tableViewArray objectAtIndex:selectedIndexPath.row];
-        NSLog(@"theBall = %@", theBall.food);
         itemViewController.passedFood = theBall;
-        NSLog(@"Pass complete");
     }
 }
 
+//this reloads the array and reloads the table each time the view appears (fixes problems)
 - (void)viewWillAppear:(BOOL)animated
 {
     [self loadArray];

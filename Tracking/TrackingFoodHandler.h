@@ -14,10 +14,13 @@
 
 @property NSMutableArray *foodList;
 
--(NSString *) getPath;
--(void) saveFoodList;
--(void) loadFoodList;
--(void) setupList;
--(void) addFoodToList:(TrackingFood *)newFood;
+- (NSString *) getPath;
+- (void) saveFoodList;
+- (void) loadFoodList;
+- (void) setupList;
+- (void) addFoodToList:(TrackingFood *)newFood;
+- (void) removeFoodFromList:(NSInteger)indexToRemove;
+- (void) listFoods;
+- (void) addFoodToList:(TrackingFood *)newFood atPosition:(NSInteger)position;
 
 @end

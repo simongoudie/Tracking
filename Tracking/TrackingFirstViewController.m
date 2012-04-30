@@ -34,6 +34,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+//Method called when the add button is pushed on first screen
 - (IBAction)PushButton:(id)sender
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate]; //link appdel
@@ -42,7 +43,6 @@
     [food1 setReminded:NO]; //set food1's reminded field
     [food1 setRating:0]; //set default food1's rating to 0
     [[appDelegate foodHandler] addFoodToList:food1];
-    //[appDelegate addFoodToList:food1]; //add food1 to foodList array
     [self foodNameInput].text = nil; //reset input text box
     [[self foodNameInput] resignFirstResponder];
 }

@@ -15,10 +15,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Creates a foodHandler on launch and runs the foodlist setup
     _foodHandler = [[TrackingFoodHandler alloc]init];
     [_foodHandler setupList];
-    NSLog(@"DFL done");
     return YES;
 }
 							
