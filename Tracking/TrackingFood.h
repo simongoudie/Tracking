@@ -11,7 +11,7 @@
 @interface TrackingFood : NSObject <NSCoding>
 
 @property (strong) NSString *food;
-@property NSInteger *rating;
+@property NSInteger rating;
 @property BOOL *reminded;
 
 @end

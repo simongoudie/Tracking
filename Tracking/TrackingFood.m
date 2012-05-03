@@ -19,7 +19,7 @@
 {
     [coder encodeObject: [self food] forKey:@"food"];
 //    [coder encodeBool: *(reminded) forKey:@"reminded"];
-//    [coder encodeInt: *(rating) forKey:@"rating"];
+    [coder encodeInt: _rating forKey:@"rating"];
 }
 
 -(id) initWithCoder: (NSCoder *)coder
@@ -28,7 +28,7 @@
     {
         [self setFood: [coder decodeObjectForKey:@"food"]];
 //        [self setReminded: (signed char *)[coder decodeBoolForKey:@"reminded"]];
-//        [self setRating: (NSInteger *)[coder decodeIntForKey:@"rating"]];
+        [self setRating: (NSInteger)[coder decodeIntForKey:@"rating"]];
     }
     return self;
 }
