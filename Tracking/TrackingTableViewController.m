@@ -39,6 +39,7 @@
 - (void)viewDidLoad
 {
     [self loadArray];
+    [self.tableView reloadData];
     numberOfRows = [self.tableViewArray count];
     [super viewDidLoad];
 
@@ -85,6 +86,9 @@
                              dequeueReusableCellWithIdentifier:@"ReuseCell"];
 	TrackingFood *food = [self.tableViewArray objectAtIndex:indexPath.row];
 	cell.textLabel.text = food.food;
+    NSDateFormatter *formattedDate = [[NSDateFormatter alloc] init];
+    [formattedDate setDateFormat:@"HH:mm, dd MMM"];
+    [cell detailTextLabel].text = [NSString stringWithFormat:@"Added at %@", [formattedDate stringFromDate:food.date]];
     return cell;
 }
 

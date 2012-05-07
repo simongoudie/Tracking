@@ -13,5 +13,6 @@
 @property (strong) NSString *food;
 @property NSInteger rating;
 @property BOOL *reminded;
+@property NSDate *date;
 
 @end

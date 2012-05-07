@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TrackingAppDelegate.h"
+#import "TrackingTableViewController.h"
 
 @interface TrackingItemViewController : UIViewController
 @property TrackingFood *passedFood;
