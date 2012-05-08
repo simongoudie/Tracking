@@ -76,19 +76,45 @@
 {
     // Return the number of rows in the section.
     //    return [self.tableViewArray count];
+    [self loadArray];
     return numberOfRows;
 }
 
 //Fills in table cells by pulling food from tableViewArray, then setting text to food name
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView 
-                             dequeueReusableCellWithIdentifier:@"ReuseCell"];
+    //create a reusable cell
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ReuseCell"];
+    
+    //pick the food to fill the cell
 	TrackingFood *food = [self.tableViewArray objectAtIndex:indexPath.row];
+    
+    //set cell label name
 	cell.textLabel.text = food.food;
-    NSDateFormatter *formattedDate = [[NSDateFormatter alloc] init];
-    [formattedDate setDateFormat:@"HH:mm, dd MMM"];
-    [cell detailTextLabel].text = [NSString stringWithFormat:@"Added at %@", [formattedDate stringFromDate:food.date]];
+    
+    //set cell subtitle text
+    NSCalendar *cal = [NSCalendar currentCalendar];
+    NSDateComponents *components = [cal components:(NSEraCalendarUnit|NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit) fromDate:[NSDate date]];
+    NSDate *today = [cal dateFromComponents:components];
+    components = [cal components:(NSEraCalendarUnit|NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit) fromDate:[[NSDate date] dateByAddingTimeInterval:-86400]];
+    NSDate *yesterday = [cal dateFromComponents:components];
+    components = [cal components:(NSEraCalendarUnit|NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit) fromDate:food.date];
+    NSDate *createdDate = [cal dateFromComponents:components];
+    
+    NSString *timeSinceCreatedString;
+    if ([today isEqualToDate:createdDate]){
+        timeSinceCreatedString = @"Added today";
+    } else if ([yesterday isEqualToDate:createdDate]) {
+        timeSinceCreatedString = @"Added yesterday";
+    } else {
+        NSDateFormatter *formattedDate = [[NSDateFormatter alloc] init];
+        [formattedDate setDateFormat:@"dd/MM/yyyy"];
+        timeSinceCreatedString = [NSString stringWithFormat:@"Added on %@",[formattedDate stringFromDate:food.date]];
+    }
+    
+    [cell detailTextLabel].text = timeSinceCreatedString;
+    
+    //return the filled cell
     return cell;
 }
 
@@ -160,8 +186,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [self loadArray];
-    [self.tableView reloadData];
     numberOfRows = [self.tableViewArray count];
+    [self.tableView reloadData];
 }
 
 @end

@@ -11,6 +11,7 @@
 #import "TrackingTableViewController.h"
 
 @interface TrackingItemViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *dateAddedLabel;
 @property TrackingFood *passedFood;
 @property (weak, nonatomic) IBOutlet UILabel *foodNameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *star1;

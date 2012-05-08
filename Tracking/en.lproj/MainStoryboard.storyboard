@@ -19,7 +19,7 @@
                                 <rect key="frame" x="87" y="63" width="144" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zBE-Je-dLq">
                                 <rect key="frame" x="87" y="141" width="144" height="37"/>
@@ -265,11 +265,26 @@
                                     <action selector="rateFive:" destination="aiO-xs-QIo" eventType="touchUpInside" id="c6B-tL-KsK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="dFz-UV-0Gy">
+                                <rect key="frame" x="20" y="86" width="89" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date Added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ock-jo-Ilw">
+                                <rect key="frame" x="182" y="86" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Food Item" id="3YY-kN-wjQ"/>
                     <connections>
+                        <outlet property="dateAddedLabel" destination="ock-jo-Ilw" id="Cyr-4m-0cg"/>
                         <outlet property="foodNameLabel" destination="zZM-AI-P5U" id="yP4-XP-PA7"/>
                         <outlet property="star1" destination="JPC-EN-fFb" id="tTs-96-pkA"/>
                         <outlet property="star2" destination="Oir-9a-gmp" id="qSi-qU-Mq8"/>
@@ -307,6 +322,38 @@
         <image name="star-nonselected.png" width="20" height="20"/>
         <image name="star-selected.png" width="20" height="20"/>
     </resources>
+    <classes>
+        <class className="TrackingFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingFirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="PushButton:"/>
+                <relationship kind="outlet" name="foodNameInput" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="TrackingItemViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingItemViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="rateFive:"/>
+                <relationship kind="action" name="rateFour:"/>
+                <relationship kind="action" name="rateOne:"/>
+                <relationship kind="action" name="rateThree:"/>
+                <relationship kind="action" name="rateTwo:"/>
+                <relationship kind="outlet" name="dateAddedLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="foodNameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="star1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="star2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="star3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="star4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="star5" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="TrackingTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TrackingTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="MyTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

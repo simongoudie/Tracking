@@ -14,6 +14,7 @@
 
 @implementation TrackingItemViewController
 @synthesize foodNameLabel = _foodNameLabel;
+@synthesize dateAddedLabel = _dateAddedLabel;
 @synthesize passedFood = _passedFood;
 @synthesize star1 = _star1;
 @synthesize star2 = _star2;
@@ -36,6 +37,10 @@
     TrackingFood *food = [self passedFood];
 //show correct food name
     [self foodNameLabel].text = [NSString stringWithFormat:@"%@",food.food];
+//show date added in field
+    NSDateFormatter *formattedDate = [[NSDateFormatter alloc] init];
+    [formattedDate setDateFormat:@"dd MMM yyyy"];
+    [self dateAddedLabel].text = [NSString stringWithFormat:@"%@", [formattedDate stringFromDate:food.date]];
 //show correct number of stars on load
     if(_passedFood.rating > 0)
         [_star1 setSelected:YES];
@@ -57,6 +62,7 @@
     [self setStar3:nil];
     [self setStar4:nil];
     [self setStar5:nil];
+    [self setDateAddedLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
