@@ -84,6 +84,7 @@
     [[self star3] setSelected:NO];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
+    [_passedFood setReminded:YES];
 }
 
 - (IBAction)rateTwo:(id)sender 
@@ -96,6 +97,7 @@
     [[self star3] setSelected:NO];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
+    [_passedFood setReminded:YES];
 }
 
 - (IBAction)rateThree:(id)sender
@@ -108,6 +110,7 @@
     [[self star3] setSelected:YES];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
+    [_passedFood setReminded:YES];
 }
 
 - (IBAction)rateFour:(id)sender 
@@ -120,6 +123,7 @@
     [[self star3] setSelected:YES];
     [[self star4] setSelected:YES];
     [[self star5] setSelected:NO];
+    [_passedFood setReminded:YES];
 }
 
 - (IBAction)rateFive:(id)sender 
@@ -132,6 +136,7 @@
     [[self star3] setSelected:YES];
     [[self star4] setSelected:YES];
     [[self star5] setSelected:YES];
+    [_passedFood setReminded:YES];
 }
 
 @end

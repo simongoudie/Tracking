@@ -12,7 +12,10 @@
 
 @property (strong) NSString *food;
 @property NSInteger rating;
-@property BOOL *reminded;
+@property BOOL reminded;
 @property NSDate *date;
+@property UILocalNotification *localNotif;
+
+-(void) setupLocalNotification;
 
 @end

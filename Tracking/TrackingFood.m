@@ -14,6 +14,7 @@
 @synthesize rating = _rating;
 @synthesize reminded = _reminded;
 @synthesize date = _date;
+@synthesize localNotif = _localNotif;
 
 //foods include encoding methods so they can be archived to disc in the list
 -(void) encodeWithCoder: (NSCoder *)coder
@@ -34,6 +35,25 @@
         [self setDate: [coder decodeObjectForKey:@"date"]];
     }
     return self;
+}
+
+//sets up a local notification to be fired after food is created
+-(void) setupLocalNotification
+{
+    UILocalNotification *localnotification = [[UILocalNotification alloc] init];
+    if (localnotification == nil)
+        return;
+    localnotification.fireDate = [[NSDate date] dateByAddingTimeInterval:60];
+    localnotification.timeZone = [NSTimeZone defaultTimeZone];
+    localnotification.alertBody = [NSString stringWithFormat:@"Remember to rate %@",self.food];
+    localnotification.alertAction = [NSString stringWithFormat:@"Rate now"];
+    localnotification.soundName = UILocalNotificationDefaultSoundName;
+    
+    NSDictionary *infoDict = [NSDictionary dictionaryWithObject:self.food forKey:@"food"];
+    localnotification.userInfo = infoDict;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:localnotification];
+    self.localNotif = localnotification;
 }
 
 @end

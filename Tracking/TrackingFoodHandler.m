@@ -11,6 +11,7 @@
 @implementation TrackingFoodHandler
 
 @synthesize foodList = _foodList;
+@synthesize unratedCount = _unratedCount;
 
 
 //Encoding methods to save the list to disc
@@ -62,6 +63,10 @@
     if(![[NSFileManager defaultManager] fileExistsAtPath:[self getPath]]){
         NSLog(@"Problem: File does not exist after saving");
     }
+    
+//Set badge to show number of unrater foods
+    [self countUnrated];
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:[self unratedCount]];
 
 /*Old save method for serialising data, not as nice as archiving
     [foodList writeToFile:filePath atomically:YES];
@@ -101,6 +106,17 @@
 {
     [_foodList removeObjectAtIndex:indexToRemove];
     [self saveFoodList];
+}
+
+//Keep count of unrated food
+- (void) countUnrated
+{
+    NSInteger i;
+    _unratedCount = 0;
+    for (i = 0; i<[_foodList count]; i++){
+        if ([[_foodList objectAtIndex:i] rating] == 0)
+            _unratedCount++;
+    }
 }
 
 //Method list food names in one long string, for testing

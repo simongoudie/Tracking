@@ -42,8 +42,9 @@
     [food1 setFood:[self foodNameInput].text]; //set food1's name property
     [food1 setReminded:NO]; //set food1's reminded field
     [food1 setRating:0]; //set default food1's rating to 0
-    [food1 setDate:[NSDate date]];
-    [[appDelegate foodHandler] addFoodToList:food1];
+    [food1 setDate:[NSDate date]]; //set food1's date added
+    [[appDelegate foodHandler] addFoodToList:food1]; //insert food1 to list
+    [appDelegate foodHandler].unratedCount++;
     [self foodNameInput].text = nil; //reset input text box
     [[self foodNameInput] resignFirstResponder];
 }

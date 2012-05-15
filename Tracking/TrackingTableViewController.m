@@ -140,7 +140,7 @@
     }   
 }
 
-// Supports food list reordering by removing then readding moved food
+// Supports food list reordering by removing then re-adding moved food
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
@@ -158,18 +158,6 @@
 }
 
 #pragma mark - Table view delegate
-/*
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    TrackingFood *theBall = [self.tableViewArray objectAtIndex:indexPath.row];
-    // Navigation logic may go here. Create and push another view controller.
-    TrackingItemViewController *itemViewController = [[TrackingItemViewController alloc] initWithNibName:@"ItemView" bundle:nil];
-     // Pass the selected object to the new view controller.
-    itemViewController.passedFood = theBall;
-    NSLog(@"Item passed is called: %@",itemViewController.passedFood.food);
-    [self.navigationController pushViewController:itemViewController animated:YES];
-}
-*/
 
 //Some fancy thing I had to do to pass the selected food to the single food view
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender

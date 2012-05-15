@@ -13,6 +13,7 @@
 @interface TrackingFoodHandler : NSObject <NSCoding>
 
 @property NSMutableArray *foodList;
+@property NSInteger unratedCount;
 
 - (NSString *) getPath;
 - (void) saveFoodList;
