@@ -8,10 +8,6 @@
 
 #import "TrackingTableViewController.h"
 
-@interface TrackingTableViewController ()
-
-@end
-
 @implementation TrackingTableViewController
 
 @synthesize tableViewArray = _tableViewArray;

@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "TrackingFood.h"
-#import "TrackingFoodList.h"
 
-@interface TrackingFoodHandler : NSObject <NSCoding>
+@interface TrackingFoodHandler : NSObject <NSCoding>{
+    NSMutableSet *foodlist;
+    NSInteger unratedCount;
+}
 
 @property NSMutableArray *foodList;
 @property NSInteger unratedCount;

@@ -8,14 +8,10 @@
 
 #import "TrackingItemViewController.h"
 
-@interface TrackingItemViewController ()
-
-@end
-
 @implementation TrackingItemViewController
+@synthesize passedFood = _passedFood;
 @synthesize foodNameLabel = _foodNameLabel;
 @synthesize dateAddedLabel = _dateAddedLabel;
-@synthesize passedFood = _passedFood;
 @synthesize star1 = _star1;
 @synthesize star2 = _star2;
 @synthesize star3 = _star3;

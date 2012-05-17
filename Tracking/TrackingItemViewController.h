@@ -10,9 +10,19 @@
 #import "TrackingAppDelegate.h"
 #import "TrackingTableViewController.h"
 
-@interface TrackingItemViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *dateAddedLabel;
+@interface TrackingItemViewController : UIViewController{
+    TrackingFood *passedFood;
+    IBOutlet UILabel *dateAddedLabel;
+    IBOutlet UILabel *foodNameLabel;
+    IBOutlet UIButton *star1;
+    IBOutlet UIButton *star2;
+    IBOutlet UIButton *star3;
+    IBOutlet UIButton *star4;
+    IBOutlet UIButton *star5;
+}
+
 @property TrackingFood *passedFood;
+@property (weak, nonatomic) IBOutlet UILabel *dateAddedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *foodNameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *star1;
 @property (weak, nonatomic) IBOutlet UIButton *star2;

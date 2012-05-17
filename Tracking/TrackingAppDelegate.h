@@ -11,7 +11,10 @@
 #import "TrackingFood.h"
 #import "TrackingTableViewController.h"
 
-@interface TrackingAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TrackingAppDelegate : UIResponder <UIApplicationDelegate>{
+    UIWindow *_window;
+    TrackingFoodHandler *_foodhandler;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) TrackingFoodHandler *foodHandler;

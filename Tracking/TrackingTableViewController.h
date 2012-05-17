@@ -16,6 +16,7 @@
 {
     NSMutableArray* tableViewArray;
     IBOutlet UITableView  *MyTableView;
+    NSInteger numberOfRows;
 }
 
 @property NSMutableArray *tableViewArray;

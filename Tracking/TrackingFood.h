@@ -8,7 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TrackingFood : NSObject <NSCoding>
+@interface TrackingFood : NSObject <NSCoding>{
+    NSString *food;
+    NSInteger rating;
+    BOOL reminded;
+    NSDate *date;
+    UILocalNotification *localNotif;
+}
 
 @property (strong) NSString *food;
 @property NSInteger rating;

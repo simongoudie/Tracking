@@ -8,10 +8,6 @@
 
 #import "TrackingFirstViewController.h"
 
-@interface TrackingFirstViewController ()
-
-@end
-
 @implementation TrackingFirstViewController
 
 @synthesize foodNameInput = _foodNameInput;
