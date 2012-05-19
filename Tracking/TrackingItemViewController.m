@@ -38,16 +38,16 @@
     [formattedDate setDateFormat:@"dd MMM yyyy"];
     [self dateAddedLabel].text = [NSString stringWithFormat:@"%@", [formattedDate stringFromDate:food.date]];
 //show correct number of stars on load
-    if(_passedFood.rating > 0)
-        [_star1 setSelected:YES];
-    if(_passedFood.rating > 1)
-        [_star2 setSelected:YES];
-    if(_passedFood.rating > 2)
-        [_star3 setSelected:YES];
-    if(_passedFood.rating > 3)
-        [_star4 setSelected:YES];
-    if(_passedFood.rating > 4)
-        [_star5 setSelected:YES];
+    if(self.passedFood.rating > 0)
+        [self.star1 setSelected:YES];
+    if(self.passedFood.rating > 1)
+        [self.star2 setSelected:YES];
+    if(self.passedFood.rating > 2)
+        [self.star3 setSelected:YES];
+    if(self.passedFood.rating > 3)
+        [self.star4 setSelected:YES];
+    if(self.passedFood.rating > 4)
+        [self.star5 setSelected:YES];
 }
 
 - (void)viewDidUnload
@@ -70,69 +70,70 @@
 
 //set rating by touching stars, update lit up stars
 //there has to be an nicer way of doing this...
+//TODO: come back and turn this into a loop or switch
 - (IBAction)rateOne:(id)sender 
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [_passedFood setRating:1];
+    [self.passedFood setRating:1];
     [[appDelegate foodHandler] saveFoodList];
     [[self star1] setSelected:YES];
     [[self star2] setSelected:NO];
     [[self star3] setSelected:NO];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
-    [_passedFood setReminded:YES];
+    [self.passedFood setReminded:YES];
 }
 
 - (IBAction)rateTwo:(id)sender 
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [_passedFood setRating:2];
+    [self.passedFood setRating:2];
     [[appDelegate foodHandler] saveFoodList];
     [[self star1] setSelected:YES];
     [[self star2] setSelected:YES];
     [[self star3] setSelected:NO];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
-    [_passedFood setReminded:YES];
+    [self.passedFood setReminded:YES];
 }
 
 - (IBAction)rateThree:(id)sender
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [_passedFood setRating:3];
+    [self.passedFood setRating:3];
     [[appDelegate foodHandler] saveFoodList];
     [[self star1] setSelected:YES];
     [[self star2] setSelected:YES];
     [[self star3] setSelected:YES];
     [[self star4] setSelected:NO];
     [[self star5] setSelected:NO];
-    [_passedFood setReminded:YES];
+    [self.passedFood setReminded:YES];
 }
 
 - (IBAction)rateFour:(id)sender 
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [_passedFood setRating:4];
+    [self.passedFood setRating:4];
     [[appDelegate foodHandler] saveFoodList];
     [[self star1] setSelected:YES];
     [[self star2] setSelected:YES];
     [[self star3] setSelected:YES];
     [[self star4] setSelected:YES];
     [[self star5] setSelected:NO];
-    [_passedFood setReminded:YES];
+    [self.passedFood setReminded:YES];
 }
 
 - (IBAction)rateFive:(id)sender 
 {
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [_passedFood setRating:5];
+    [self.passedFood setRating:5];
     [[appDelegate foodHandler] saveFoodList];
     [[self star1] setSelected:YES];
     [[self star2] setSelected:YES];
     [[self star3] setSelected:YES];
     [[self star4] setSelected:YES];
     [[self star5] setSelected:YES];
-    [_passedFood setReminded:YES];
+    [self.passedFood setReminded:YES];
 }
 
 @end

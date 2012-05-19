@@ -16,8 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Creates a foodHandler on launch and runs the foodlist setup
-    _foodHandler = [[TrackingFoodHandler alloc]init];
-    [_foodHandler setupList];
+    [self setFoodHandler: [[TrackingFoodHandler alloc]init]];
+    [self.foodHandler setupList];
     return YES;
 }
 							
@@ -27,9 +27,9 @@
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     
     NSInteger i;
-    for (i = 0; i<[_foodHandler.foodList count]; i++){
-        if ([[_foodHandler.foodList objectAtIndex:i] rating] == 0)
-            [[_foodHandler.foodList objectAtIndex:i] setupLocalNotification];
+    for (i = 0; i<[self.foodHandler.foodList count]; i++){
+        if ([[self.foodHandler.foodList objectAtIndex:i] rating] == 0)
+            [[self.foodHandler.foodList objectAtIndex:i] setupLocalNotification];
     }
 }
 

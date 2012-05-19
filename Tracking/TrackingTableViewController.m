@@ -160,8 +160,8 @@
 {
     if ([[segue identifier] isEqualToString:@"passedFood"]) {
         TrackingItemViewController *itemViewController = (TrackingItemViewController *)[segue destinationViewController];
-        NSIndexPath *selectedIndexPath = [_MyTableView indexPathForSelectedRow];
-        TrackingFood *theBall = [_tableViewArray objectAtIndex:selectedIndexPath.row];
+        NSIndexPath *selectedIndexPath = [self.MyTableView indexPathForSelectedRow];
+        TrackingFood *theBall = [self.tableViewArray objectAtIndex:selectedIndexPath.row];
         itemViewController.passedFood = theBall;
     }
 }

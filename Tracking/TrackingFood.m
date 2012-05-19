@@ -21,7 +21,7 @@
 {
     [coder encodeObject: [self food] forKey:@"food"];
 //    [coder encodeBool: *(reminded) forKey:@"reminded"];
-    [coder encodeInt: _rating forKey:@"rating"];
+    [coder encodeInt: self.rating forKey:@"rating"];
     [coder encodeObject: [self date] forKey:@"date"];
 }
 
