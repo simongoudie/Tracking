@@ -25,11 +25,42 @@
 		F4319032150CB4B30048BCC6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319031150CB4B30048BCC6 /* first@2x.png */; };
 		F4319037150CB4B30048BCC6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319036150CB4B30048BCC6 /* second.png */; };
 		F4319039150CB4B30048BCC6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4319038150CB4B30048BCC6 /* second@2x.png */; };
+		F47AE2661588A900008E6BA5 /* TrackingCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47AE2651588A900008E6BA5 /* TrackingCalendarViewController.m */; };
+		F47AE2781588C151008E6BA5 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F47AE2711588C151008E6BA5 /* TapkuLibrary.bundle */; };
+		F47AE2831588C1D9008E6BA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47AE2821588C1D9008E6BA5 /* QuartzCore.framework */; };
+		F47AE2851588C1E0008E6BA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47AE2841588C1E0008E6BA5 /* MapKit.framework */; };
+		F47AE2941588C93A008E6BA5 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F47AE28F1588C4C2008E6BA5 /* libTapkuLibrary.a */; };
+		F481A1E8158766CB0033A1D1 /* square_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F481A1E6158766CB0033A1D1 /* square_blue.png */; };
+		F481A1E9158766CB0033A1D1 /* square_dblue.png in Resources */ = {isa = PBXBuildFile; fileRef = F481A1E7158766CB0033A1D1 /* square_dblue.png */; };
 		F49EA7B1150CBB2B00EE2FF8 /* TrackingFood.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7B0150CBB2B00EE2FF8 /* TrackingFood.m */; };
 		F49EA7B4150CD44B00EE2FF8 /* TrackingFoodHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7B3150CD44B00EE2FF8 /* TrackingFoodHandler.m */; };
 		F49EA7C2150DD57500EE2FF8 /* TrackingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7C1150DD57500EE2FF8 /* TrackingTableViewController.m */; };
 		F49EA7C5150DFBA000EE2FF8 /* TrackingItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EA7C4150DFBA000EE2FF8 /* TrackingItemViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F47AE28E1588C4C2008E6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		F47AE2901588C4C2008E6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		F47AE2921588C930008E6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F41A9D8A154FC78100A983BD /* star-halfselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-halfselected.png"; sourceTree = "<group>"; };
@@ -55,6 +86,14 @@
 		F4319031150CB4B30048BCC6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		F4319036150CB4B30048BCC6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		F4319038150CB4B30048BCC6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F47AE2641588A900008E6BA5 /* TrackingCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingCalendarViewController.h; sourceTree = "<group>"; };
+		F47AE2651588A900008E6BA5 /* TrackingCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingCalendarViewController.m; sourceTree = "<group>"; };
+		F47AE2711588C151008E6BA5 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = Tracking/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		F47AE2821588C1D9008E6BA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F47AE2841588C1E0008E6BA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = ../tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		F481A1E6158766CB0033A1D1 /* square_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square_blue.png; path = ../square_blue.png; sourceTree = "<group>"; };
+		F481A1E7158766CB0033A1D1 /* square_dblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square_dblue.png; path = ../square_dblue.png; sourceTree = "<group>"; };
 		F49EA7AF150CBB2B00EE2FF8 /* TrackingFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingFood.h; sourceTree = "<group>"; };
 		F49EA7B0150CBB2B00EE2FF8 /* TrackingFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingFood.m; sourceTree = "<group>"; };
 		F49EA7B2150CD44A00EE2FF8 /* TrackingFoodHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingFoodHandler.h; sourceTree = "<group>"; };
@@ -70,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47AE2941588C93A008E6BA5 /* libTapkuLibrary.a in Frameworks */,
+				F47AE2851588C1E0008E6BA5 /* MapKit.framework in Frameworks */,
+				F47AE2831588C1D9008E6BA5 /* QuartzCore.framework in Frameworks */,
 				F4319018150CB4B20048BCC6 /* UIKit.framework in Frameworks */,
 				F431901A150CB4B20048BCC6 /* Foundation.framework in Frameworks */,
 				F431901C150CB4B20048BCC6 /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +141,10 @@
 		F4319016150CB4B20048BCC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */,
+				F47AE2711588C151008E6BA5 /* TapkuLibrary.bundle */,
+				F47AE2821588C1D9008E6BA5 /* QuartzCore.framework */,
+				F47AE2841588C1E0008E6BA5 /* MapKit.framework */,
 				F4319017150CB4B20048BCC6 /* UIKit.framework */,
 				F4319019150CB4B20048BCC6 /* Foundation.framework */,
 				F431901B150CB4B20048BCC6 /* CoreGraphics.framework */,
@@ -121,6 +167,8 @@
 				F49EA7C1150DD57500EE2FF8 /* TrackingTableViewController.m */,
 				F49EA7C3150DFBA000EE2FF8 /* TrackingItemViewController.h */,
 				F49EA7C4150DFBA000EE2FF8 /* TrackingItemViewController.m */,
+				F47AE2641588A900008E6BA5 /* TrackingCalendarViewController.h */,
+				F47AE2651588A900008E6BA5 /* TrackingCalendarViewController.m */,
 				F4319029150CB4B30048BCC6 /* MainStoryboard.storyboard */,
 				F431903F150CB4D00048BCC6 /* Resources */,
 				F431901E150CB4B20048BCC6 /* Supporting Files */,
@@ -142,6 +190,8 @@
 		F431903F150CB4D00048BCC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F481A1E7158766CB0033A1D1 /* square_dblue.png */,
+				F481A1E6158766CB0033A1D1 /* square_blue.png */,
 				F41A9D8A154FC78100A983BD /* star-halfselected.png */,
 				F41A9D8B154FC78100A983BD /* star-highlighted.png */,
 				F41A9D8C154FC78100A983BD /* star-hot.png */,
@@ -154,6 +204,15 @@
 				F4319031150CB4B30048BCC6 /* first@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F47AE2871588C4C1008E6BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47AE28F1588C4C2008E6BA5 /* libTapkuLibrary.a */,
+				F47AE2911588C4C2008E6BA5 /* LogicTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +229,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F47AE2931588C930008E6BA5 /* PBXTargetDependency */,
 			);
 			name = Tracking;
 			productName = Tracking;
@@ -195,12 +255,35 @@
 			mainGroup = F4319008150CB4B20048BCC6;
 			productRefGroup = F4319014150CB4B20048BCC6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F47AE2871588C4C1008E6BA5 /* Products */;
+					ProjectRef = F47AE2861588C4C1008E6BA5 /* TapkuLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F4319012150CB4B20048BCC6 /* Tracking */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F47AE28F1588C4C2008E6BA5 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = F47AE28E1588C4C2008E6BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47AE2911588C4C2008E6BA5 /* LogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.octest;
+			remoteRef = F47AE2901588C4C2008E6BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F4319011150CB4B20048BCC6 /* Resources */ = {
@@ -219,6 +302,9 @@
 				F41A9D93154FC78100A983BD /* star-nonselected.png in Resources */,
 				F41A9D94154FC78100A983BD /* star-selected.png in Resources */,
 				F41A9D95154FC78100A983BD /* star-userselected.png in Resources */,
+				F481A1E8158766CB0033A1D1 /* square_blue.png in Resources */,
+				F481A1E9158766CB0033A1D1 /* square_dblue.png in Resources */,
+				F47AE2781588C151008E6BA5 /* TapkuLibrary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +322,19 @@
 				F49EA7B4150CD44B00EE2FF8 /* TrackingFoodHandler.m in Sources */,
 				F49EA7C2150DD57500EE2FF8 /* TrackingTableViewController.m in Sources */,
 				F49EA7C5150DFBA000EE2FF8 /* TrackingItemViewController.m in Sources */,
+				F47AE2661588A900008E6BA5 /* TrackingCalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F47AE2931588C930008E6BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = F47AE2921588C930008E6BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F4319020150CB4B20048BCC6 /* InfoPlist.strings */ = {
@@ -264,7 +359,7 @@
 		F431903A150CB4B30048BCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Simon Goudie (TXWMRMKTMT)";
@@ -282,16 +377,20 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PROVISIONING_PROFILE = "41693864-1B9B-4C23-8CBD-E2FF1FDCFC2C";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/tapkulibrary";
 			};
 			name = Debug;
 		};
 		F431903B150CB4B30048BCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Simon Goudie (TXWMRMKTMT)";
@@ -302,10 +401,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "41693864-1B9B-4C23-8CBD-E2FF1FDCFC2C";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/tapkulibrary";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -313,10 +416,19 @@
 		F431903D150CB4B30048BCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tracking/Tracking-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/",
+				);
 				INFOPLIST_FILE = "Tracking/Tracking-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/tapkulibrary";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -324,10 +436,19 @@
 		F431903E150CB4B30048BCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tracking/Tracking-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/",
+				);
 				INFOPLIST_FILE = "Tracking/Tracking-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/simon/Dropbox/Coding/\"Coding Projects\"/tapkulibrary/src/tapkulibrary";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
