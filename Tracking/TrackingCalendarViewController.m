@@ -15,7 +15,7 @@
  
  - (void) viewDidLoad{
  [super viewDidLoad];
- [self.monthView selectDate:[NSDate month]];
+ [self.monthView selectDate:[NSDate date]];
  }
 
  - (void) viewDidAppear:(BOOL)animated{
@@ -69,6 +69,12 @@
  return cell;
  
  }
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"%@", [[[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:indexPath.row] food]);
+    NSLog(@"%d", [[[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:indexPath.row] rating]);
+    [self performSegueWithIdentifier:@"passedFood" sender:self];
+}
  
 - (void) generateDataForStartDate:(NSDate*)startDate endDate:(NSDate*)end{
     NSLog(@"Delegate Range: %@ %@ %d",startDate,end,[startDate daysBetweenDate:end]);
@@ -144,5 +150,18 @@
 	}
 
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender
+{
+    NSLog(@"BAM");
+    if ([[segue identifier] isEqualToString:@"passedFood"]) {
+        NSLog(@"destination = %@", [segue destinationViewController]);
+        TrackingItemViewController *itemViewController = (TrackingItemViewController *)[segue destinationViewController];
+        NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        TrackingFood *theBall = [[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:selectedIndexPath.row];
+        itemViewController.passedFood = theBall;
+    }
+}
+
       
 @end

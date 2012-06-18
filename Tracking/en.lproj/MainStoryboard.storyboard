@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
@@ -90,6 +91,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Calendar" id="KLD-TL-giL"/>
+                    <connections>
+                        <segue destination="aiO-xs-QIo" kind="push" identifier="passedFood" id="87i-LV-tLq"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="985" y="298"/>
@@ -211,7 +215,6 @@
                                 </state>
                                 <connections>
                                     <action selector="rateOne:" destination="aiO-xs-QIo" eventType="touchUpInside" id="LHM-l5-2Tg"/>
-                                    <action selector="setStar1:" destination="aiO-xs-QIo" eventType="touchUpInside" id="1qP-Zz-vHS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oir-9a-gmp">
@@ -232,7 +235,6 @@
                                 </state>
                                 <connections>
                                     <action selector="rateTwo:" destination="aiO-xs-QIo" eventType="touchUpInside" id="nxC-tG-VWV"/>
-                                    <action selector="setStar2:" destination="aiO-xs-QIo" eventType="touchUpInside" id="1hQ-Hp-26o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zUB-gA-Jn7">
@@ -324,7 +326,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1476" y="-291"/>
+            <point key="canvasLocation" x="1528" y="5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -358,4 +360,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="87i-LV-tLq"/>
+    </inferredMetricsTieBreakers>
 </document>
