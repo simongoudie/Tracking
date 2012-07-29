@@ -38,6 +38,7 @@
     [formattedDate setDateFormat:@"dd MMM yyyy"];
     [self dateAddedLabel].text = [NSString stringWithFormat:@"%@", [formattedDate stringFromDate:food.date]];
 //show correct number of stars on load
+//need to change this to a switch statement?
     if(self.passedFood.rating > 0)
         [self.star1 setSelected:YES];
     if(self.passedFood.rating > 1)

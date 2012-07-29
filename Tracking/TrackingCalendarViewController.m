@@ -35,10 +35,9 @@
 
  - (void) calendarMonthView:(TKCalendarMonthView*)monthView didSelectDate:(NSDate*)date{ 
  // CHANGE THE DATE TO YOUR TIMEZONE
- TKDateInformation info = [date dateInformationWithTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
- NSDate *myTimeZoneDay = [NSDate dateFromDateInformation:info timeZone:[NSTimeZone systemTimeZone]];
- 
- NSLog(@"Date Selected: %@",myTimeZoneDay);
+ //TKDateInformation info = [date dateInformationWithTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+ //NSDate *myTimeZoneDay = [NSDate dateFromDateInformation:info timeZone:[NSTimeZone systemTimeZone]];
+ //NSLog(@"Date Selected: %@",myTimeZoneDay);
  
  [self.tableView reloadData];
  }
@@ -71,8 +70,6 @@
  }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%@", [[[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:indexPath.row] food]);
-    NSLog(@"%d", [[[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:indexPath.row] rating]);
     [self performSegueWithIdentifier:@"passedFood" sender:self];
 }
  
@@ -153,9 +150,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender
 {
-    NSLog(@"BAM");
     if ([[segue identifier] isEqualToString:@"passedFood"]) {
-        NSLog(@"destination = %@", [segue destinationViewController]);
         TrackingItemViewController *itemViewController = (TrackingItemViewController *)[segue destinationViewController];
         NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
         TrackingFood *theBall = [[dataDictionary objectForKey:[self.monthView dateSelected]] objectAtIndex:selectedIndexPath.row];

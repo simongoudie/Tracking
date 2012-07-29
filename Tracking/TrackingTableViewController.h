@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 #import "TrackingAppDelegate.h"
 #import "TrackingFood.h"
 #import "TrackingItemViewController.h"
 #import "TrackingFoodHandler.h"
 
-@interface TrackingTableViewController : UITableViewController
+@interface TrackingTableViewController : UITableViewController <MFMailComposeViewControllerDelegate>
 {
     NSMutableArray* tableViewArray;
     IBOutlet UITableView  *MyTableView;
@@ -24,5 +25,6 @@
 @property NSInteger numberOfRows;
 
 - (void) loadArray;
+- (IBAction)exportData:(id)sender;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "TrackingTableViewController.h"
 
+
 @implementation TrackingTableViewController
 
 @synthesize tableViewArray = _tableViewArray;
@@ -20,6 +21,83 @@
     TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     NSMutableArray *array = [[NSMutableArray alloc] initWithArray: [[appDelegate foodHandler] foodList]];
     self.tableViewArray = array;
+}
+
+//export csv of data via email attachment
+//TODO very messy, still needs to be cleaned up, but does work
+//TODO all of this should probably be moved out of the view controller
+- (IBAction)exportData:(id)sender
+{
+    NSLog(@"Export triggered");
+    if ([MFMailComposeViewController canSendMail])
+        {
+            MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
+            mailer.mailComposeDelegate = self;
+
+            [mailer setSubject:@"Data export from Tracker"];
+            
+            //TODO: change default email address
+            NSArray *toRecipients = [NSArray arrayWithObjects:@"simon@simongoudie.com", nil];
+            [mailer setToRecipients:toRecipients];
+ 
+            TrackingAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+            NSMutableArray *array = [[NSMutableArray alloc] initWithArray: [[appDelegate foodHandler] foodList]];
+            NSString *exportString = @"Food,Rating,Date\n";
+            //loop that prepares export data as csv
+            //TODO make this nicer
+            for (id entry in array)
+            {
+                NSString *exportLine = [NSString stringWithFormat:@"%@,%d,%@\n", [entry food], [entry rating], [entry date]];
+                exportString = [exportString stringByAppendingFormat:@"%@", exportLine];
+            }
+            
+            //prepare attachment file from export string
+            NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+            NSString *documentsDirectory = [paths objectAtIndex:0];
+            NSError *error;
+            BOOL succeed = [exportString writeToFile:[documentsDirectory stringByAppendingPathComponent:@"TrackingExport.csv"] atomically:YES encoding:NSUTF8StringEncoding error:&error];
+            if (!succeed)
+            {
+                NSLog(@"Error with export file save!");
+            }
+            
+            NSData *csvData = [NSData dataWithContentsOfFile:[documentsDirectory stringByAppendingPathComponent:@"TrackingExport.csv"]];
+            [mailer addAttachmentData:csvData mimeType:@"text/csv" fileName:@"TrackingExport.csv"];
+            
+            NSString *emailBody = [NSString stringWithFormat: @"Here's the data you've added to your Tracker. Thanks for using the app!\n"];
+            [mailer setMessageBody:emailBody isHTML:NO];
+            
+            [self presentModalViewController:mailer animated:YES];
+        }
+    else
+        {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failure" message:@"Device not supported" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alert show];
+        }
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail draft saved.");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail send queued");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail failed");
+            break;
+        default:
+            NSLog(@"Mail not sent.");
+            break;
+    }
+
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -155,7 +233,7 @@
 
 #pragma mark - Table view delegate
 
-//Some fancy thing I had to do to pass the selected food to the single food view
+//prepare for segue to item view
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id) sender
 {
     if ([[segue identifier] isEqualToString:@"passedFood"]) {
