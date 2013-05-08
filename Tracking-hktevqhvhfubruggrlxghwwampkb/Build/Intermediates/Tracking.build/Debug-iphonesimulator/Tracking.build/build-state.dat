@@ -1,0 +1,529 @@
+TTracking
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist Tracking/Tracking-Info.plist
+cProcessPCH /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth Tracking/Tracking-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051712F7C0000000000000110
+t1366372220
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510A15450000000000228FE0
+t1359615301
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510A154800000000003DDFA0
+t1359615304
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000510A154D00000000000F9CF0
+t1359615309
+s1023216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000510A15530000000000114570
+t1359615315
+s1131888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510A155400000000001D5750
+t1359615316
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510A155B0000000000AB6230
+t1359615323
+s11231792
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Default-568h@2x.png
+c00000000507EE32300000000000048A2
+t1350492963
+s18594
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/Tracking.LinkFileList
+c00000000518A462A000000000000063C
+t1368016426
+s1596
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app.dSYM
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/PkgInfo
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/TapkuLibrary.bundle
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Tracking
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/darklinen.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/defaultbg.jpg
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/first.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/first@2x.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/second.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/second@2x.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-halfselected.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-highlighted.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-hot.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-nonselected.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-selected.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-userselected.png
+t2
+s0
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/libTapkuLibrary.a
+c00000000518A462A0000000000340540
+t1368016426
+s3409216
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TapkuLibrary.bundle
+c00000000518A44BA0000000000000066
+t1368016058
+s102
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/Tracking-Prefix.pch
+c000000004FE14BBA000000000000013F
+t1340165050
+s319
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m
+c000000004FE14BBA00000000000009D5
+t1340165050
+s2517
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m
+c000000005014B2AC0000000000001BB3
+t1343533740
+s7091
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m
+c000000005014BBCC0000000000000653
+t1343536076
+s1619
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m
+c000000004FE14BBA00000000000007A3
+t1340165050
+s1955
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m
+c000000004FE14BBA0000000000000F56
+t1340165050
+s3926
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m
+c0000000050148C6C0000000000001113
+t1343523948
+s4371
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m
+c000000005014E78400000000000027A7
+t1343547268
+s10151
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/darklinen.png
+c000000005014B7AF0000000000015D8E
+t1343535023
+s89486
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/defaultbg.jpg
+c000000004FA636E80000000000002AFE
+t1336293096
+s11006
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/en.lproj/InfoPlist.strings
+c000000004FE14BBA000000000000002D
+t1340165050
+s45
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/en.lproj/MainStoryboard.storyboard
+c00000000518A44BA0000000000008039
+t1368016058
+s32825
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/first.png
+c000000004FE142E000000000000000FD
+t1340162784
+s253
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/first@2x.png
+c000000004FE142E00000000000000192
+t1340162784
+s402
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m
+c000000004FE14BBA0000000000000169
+t1340165050
+s361
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/second.png
+c000000004FE142E00000000000000080
+t1340162784
+s128
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/second@2x.png
+c000000004FE142E00000000000000082
+t1340162784
+s130
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-halfselected.png
+c000000004FE142E0000000000000035B
+t1340162784
+s859
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-highlighted.png
+c000000004FE142E000000000000001D6
+t1340162784
+s470
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-hot.png
+c000000004FE142E000000000000002FA
+t1340162784
+s762
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-nonselected.png
+c000000004FE142E00000000000000343
+t1340162784
+s835
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-selected.png
+c000000004FE142E000000000000002B9
+t1340162784
+s697
+
+N/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/star-userselected.png
+c000000004FE142E000000000000002FA
+t1340162784
+s762
+
+NTracking/Tracking-Info.plist
+c000000004FE14BBA00000000000004D9
+t1340165050
+s1241
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m
+r0
+
+CBuild AST from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies88647caa7d3ab741^93fd83aa7d3ab741^---0#1#0#--18"Check dependencies36"3C617301-9E4F-4E05-A133-01939E540F14-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.008305
+e389709227.150018
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m7e5102ab7d3ab741^ba6626ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m0000000000000000^3496"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o Tracking/TrackingAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingAppDelegate.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingAppDelegate.o36"D547B0E7-705D-4EF5-865E-8A77939E7E84-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.168339
+e389709227.223531
+r0
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m:9:
+o/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.h:10:9: fatal error: 'TapkuLibrary/TapkuLibrary.h' file not found
+o#import <TapkuLibrary/TapkuLibrary.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.ma6472bab7d3ab741^3bc239ab7d3ab741^-332"In file included from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m:9:/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.h:10:9: fatal error: 'TapkuLibrary/TapkuLibrary.h' file not found#import <TapkuLibrary/TapkuLibrary.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@44"'TapkuLibrary/TapkuLibrary.h' file not found-389709227#18446744073709551615#0#1(2@112"In file included from /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m:9:-389709227#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m0000000000000000^8#8#8#8#172#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.h0000000000000000^9#8#9#8#196#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m0000000000000000^3562"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o Tracking/TrackingCalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingCalendarViewController.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingCalendarViewController.o36"493163FA-F951-47F2-B287-C1A043074639-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.070327
+e389709227.204542
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.ma53112ab7d3ab741^2f8834ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m0000000000000000^3544"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o Tracking/TrackingFirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFirstViewController.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFirstViewController.o36"AE32EEC2-143A-4E0C-B3BF-FCEEF72793F8-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.008340
+e389709227.085966
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m344b02ab7d3ab741^4d0f16ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m0000000000000000^3454"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o Tracking/TrackingFood.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFood.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFood.o36"EB5C45FE-919F-4757-BB0E-BDC5C0235FE5-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.088635
+e389709227.201110
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m1edf16ab7d3ab741^8d7b33ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m0000000000000000^3496"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o Tracking/TrackingFoodHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingFoodHandler.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingFoodHandler.o36"A07BD6BF-FE9F-4792-B40E-22FA4C12CE34-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.151552
+e389709227.328255
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m01f926ab7d3ab741^f48c55ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m0000000000000000^3538"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o Tracking/TrackingItemViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingItemViewController.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingItemViewController.o36"D9958722-FFE9-473B-9C20-7BCF7BFD451D-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.008535
+e389709227.165422
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m1e5402ab7d3ab741^9c6d2aab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m0000000000000000^3544"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o Tracking/TrackingTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/TrackingTableViewController.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/TrackingTableViewController.o36"18F0862C-7691-4CA7-BD91-6BAB4132C4C8-
+
+CCompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709227.008288
+e389709227.068927
+r1
+xCompileC
+xTracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m615402ab7d3ab741^80d511ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m0000000000000000^3406"CompileC Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o Tracking/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator -include /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/main.m -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Objects-normal/i386/main.o36"811FD836-84C5-4CA5-9B75-EF866AD28469-
+
+CCompileStoryboard /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/en.lproj/MainStoryboard.storyboard
+r0
+
+CCopyStringsFile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/en.lproj/InfoPlist.strings Tracking/en.lproj/InfoPlist.strings
+r0
+
+CCpResource Default-568h@2x.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Default-568h@2x.png
+r0
+
+CCpResource Tracking/TapkuLibrary.bundle Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/TapkuLibrary.bundle
+r0
+
+CCpResource Tracking/darklinen.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/darklinen.png
+r0
+
+CCpResource Tracking/defaultbg.jpg Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/defaultbg.jpg
+r0
+
+CCpResource Tracking/first.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/first.png
+r0
+
+CCpResource Tracking/first@2x.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/first@2x.png
+r0
+
+CCpResource Tracking/second.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/second.png
+r0
+
+CCpResource Tracking/second@2x.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/second@2x.png
+r0
+
+CCpResource Tracking/star-halfselected.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-halfselected.png
+r0
+
+CCpResource Tracking/star-highlighted.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-highlighted.png
+r0
+
+CCpResource Tracking/star-hot.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-hot.png
+r0
+
+CCpResource Tracking/star-nonselected.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-nonselected.png
+r0
+
+CCpResource Tracking/star-selected.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-selected.png
+r0
+
+CCpResource Tracking/star-userselected.png Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/star-userselected.png
+r0
+
+CGenerateDSYMFile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app.dSYM /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Tracking
+r0
+
+CLd /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Tracking normal i386
+r0
+
+CProcessInfoPlistFile /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist Tracking/Tracking-Info.plist
+s389709226.522214
+e389709226.536646
+r1
+xProcessInfoPlistFile
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist
+xTracking/Tracking-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Tracking/Tracking-Info.plist4fc985aa7d3ab741^e56189aa7d3ab741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/Tracking-Info.plist0000000000000000^819"ProcessInfoPlistFile Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist Tracking/Tracking-Info.plist    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tracking/Tracking-Info.plist -genpkginfo /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app/Info.plist36"11889A92-0DC2-43BD-80DA-7A138AAB2D40-
+
+CProcessPCH /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth Tracking/Tracking-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389709226.544885
+e389709227.001456
+r1
+xProcessPCH
+x/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth
+xTracking/Tracking-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Tracking/Tracking-Prefix.pchd09a8baa7d3ab741^b35e00ab7d3ab741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/Tracking-Prefix.pch0000000000000000^3276"ProcessPCH Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth Tracking/Tracking-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/simon/Dropbox/Coding/Projects/Tracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/Tracking.hmap "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src/tapkulibrary" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/include "-I/Users/simon/Dropbox/Coding/Coding Projects/tapkulibrary/src" -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources/i386 -I/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/Tracking.build/Debug-iphonesimulator/Tracking.build/DerivedSources -F/Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.dia -c /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking/Tracking-Prefix.pch -o /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.pth -MMD -MT dependencies -MF /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Intermediates/PrecompiledHeaders/Tracking-Prefix-dbqyswskkvhzjgblqpwxnhmeleft/Tracking-Prefix.pch.d36"2509C941-203E-4A15-9C84-CD7EFC7E8C27-
+
+CProcessPCH /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Index/PrecompiledHeaders/Tracking-Prefix-eapaxuzvygpxgobobqwoclvmotew_ast/Tracking-Prefix.pch.pth Tracking/Tracking-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/simon/Dropbox/Coding/Projects/Tracking/Tracking-hktevqhvhfubruggrlxghwwampkb/Build/Products/Debug-iphonesimulator/Tracking.app
+r0
+
