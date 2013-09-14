@@ -16,6 +16,8 @@
  - (void) viewDidLoad{
  [super viewDidLoad];
  [self.monthView selectDate:[NSDate date]];
+ if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+    self.edgesForExtendedLayout = UIRectEdgeNone;
  }
 
  - (void) viewDidAppear:(BOOL)animated{
