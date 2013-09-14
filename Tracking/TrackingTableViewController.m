@@ -67,7 +67,8 @@
             NSString *emailBody = [NSString stringWithFormat: @"Here's the data you've added to your Tracker. Thanks for using the app!\n"];
             [mailer setMessageBody:emailBody isHTML:NO];
             
-            [self presentModalViewController:mailer animated:YES];
+//deprecated and replaced by next line (test)            [self presentModalViewController:mailer animated:YES];
+            [self presentViewController:mailer animated:YES completion:NULL];
         }
     else
         {
@@ -97,7 +98,7 @@
             break;
     }
 
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
